@@ -1,0 +1,130 @@
+#title{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+#subtitle{
+    font-size: 80px;
+    text-align: center;
+}
+
+/*============================================================================================================================================================*/
+.links1{
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 0%, 50%);
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+}
+.links2{
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 0%, 50%);
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+}
+.linksbox{
+    background-color: hsl(0, 0%, 83%, 100%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 100px;
+    font-size: 30px;
+}
+#tactics{
+    background-color: hsl(0, 0%, 83%, 100%);
+    background-blend-mode:color;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bundesarchiv_Bild_136-B0560%2C_Frankreich%2C_Kavalleristen_im_Sch%C3%BCtzengraben.jpg/250px-Bundesarchiv_Bild_136-B0560%2C_Frankreich%2C_Kavalleristen_im_Sch%C3%BCtzengraben.jpg);
+    transition: all 2s;
+}
+#tactics:hover, #weapons:hover, #stories:hover, #life:hover, #cost:hover{
+    background-color: hsl(0, 0%, 83%, 0%);
+}
+#weapons{
+    background-color: hsl(0, 0%, 83%, 100%);
+    background-blend-mode:color;
+    background-image: url(https://www.historyonthenet.com/wp-content/uploads/2014/08/Image-4-for-unseen-ww1-pictures-in-the-trenches-gallery-244834765.jpg);
+    transition: all 2s;
+}
+#stories{
+    background-color: hsl(0, 0%, 83%, 100%);
+    background-blend-mode:color;
+    background-image: url(https://media.defense.gov/2021/Nov/09/2002890969/-1/-1/0/180305-O-D0439-001C.JPG);
+    transition: all 2s;
+}
+#life{
+    background-color: hsl(0, 0%, 83%, 100%);
+    background-blend-mode:color;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMuMLUF4_ftBK5HcULRSAnnh4eA27StT_5Ft9CLC2gYgbEQoHF:https://www.historyhit.com/app/uploads/2020/07/CanadiansTrench-1-e1605616125148.jpg&s);
+    transition: all 2s;
+}
+#cost{
+    background-color: hsl(0, 0%, 83%, 100%);
+    background-blend-mode:color;
+    background-image: url(https://www.historyhit.com/app/uploads/2018/12/Verdun-in-ruins-WW1-1916.jpg);
+    transition: all 2s;
+}
+/*===================================================================================================================================================================*/
+.page2{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#pmed{
+    font-size: 30px;
+}
+#ott, #entrench, #barrage, #mining, #raiding, #did{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 30px;
+    margin-top: 30px;
+}
+#entrench, #barrage, #raiding{
+    height: 40px;
+    align-self: right;
+    margin-left: 80%;
+    transition: margin-left 3s, height 2s;
+}
+#ott, #mining, #did{
+    height: 40px;
+    align-self: left;
+    margin-right: 80%;
+    transition: margin-right 3s, height 2s;
+}
+.entrenchimage, .barrageimage, .raidingimage{
+    height: 0px;
+    width: 0px;
+    opacity: 0%;
+    margin-right: 100%;
+    margin-left: 0%;
+    transition: all 2s;
+}
+#entrench:hover, #barrage:hover, #raiding:hover{
+    height: 400px;
+    margin-left: 0px;
+}
+#entrench:hover .entrenchimage, #barrage:hover .barrageimage, #raiding:hover .raidingimage{
+    margin-right: 0%;
+    margin-left: 70%;
+    opacity: 100%;
+    height: 300px;
+    width: 300px;
+}
+#ott:hover, #mining:hover, #did:hover{
+    height: 400px;
+    margin-right: 0px;
+}
+.ottimage, .miningimage, .didimage{
+    height: 0px;
+    width: 0px;
+    opacity: 0%;
+    margin-left: 100%;
+    margin-right: 0%;
+    transition: all 2s;
+}
+#ott:hover .ottimage, #mining:hover .miningimage, #did:hover .didimage{
+    margin-left: 0%;
+    margin-right: 70%;
+    opacity: 100%;
+    height: 300px;
+    width: 300px;
+}
