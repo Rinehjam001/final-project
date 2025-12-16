@@ -218,3 +218,33 @@
     top: 0px;
     width: 150px;
 }
+
+/*============================================================*/
+
+.weaponsgrid{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+}
+
+.weapong{
+    height: 300px;
+    width: 300px;
+}
+.weapont{
+    height: 500px;
+    width: 500px;
+}
+
+/*=========================================*/
+/*wow i really got lazier with the section dividers huh*/
+
+.page5{
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: grid;
+    font-size: 300%;
+}
